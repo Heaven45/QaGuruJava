@@ -1,8 +1,8 @@
 package guru.qa;
 
 public class Album {
-    String name;
-    boolean isGolden;
+    private String name;
+    private boolean isGolden;
 
     public Album(String name) {
         this.name = name;

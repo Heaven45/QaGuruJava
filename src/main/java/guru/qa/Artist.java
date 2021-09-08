@@ -4,12 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Artist {
-    int id;
-    String name;
-    boolean isFavorite;
-    int listeners;
+    private int id;
+    private String name;
+    private boolean isFavorite;
+    private int listeners;
     private List<Album> albums = new ArrayList<>();
-    boolean isDead;
+    private boolean isDead;
 
     public Artist(int id, int listeners, boolean isDead) {
         this.id = id;
