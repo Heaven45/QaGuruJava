@@ -19,5 +19,6 @@ public class Main {
         guf.printAlbums();
         guf.resurrect();
         guf.checkIfAllive();
+
     }
 }
